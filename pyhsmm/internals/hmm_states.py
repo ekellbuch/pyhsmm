@@ -5,8 +5,7 @@ import numpy as np
 from numpy import newaxis as na
 import abc
 import copy
-from scipy.misc import logsumexp
-
+from scipy.special import logsumexp
 from pyhsmm.util.stats import sample_discrete
 try:
     from pyhsmm.util.cstats import sample_markov, count_transitions
